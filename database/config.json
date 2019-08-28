@@ -1,0 +1,16 @@
+{
+  "development": {
+    "username": "root",
+    "password": "321504",
+    "database": "egg_blog",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "define-your-own-databse-for-unittest",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
