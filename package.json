@@ -3,12 +3,17 @@
   "version": "1.0.0",
   "description": "just for learn egg ",
   "dependencies": {
+    "bcrypt": "^3.0.5",
+    "bcryptjs": "^2.4.3",
     "bulma": "^0.7.5",
     "egg": "^1.8.0",
     "egg-scripts": "^1.2.0",
     "egg-sequelize": "^4.3.1",
+    "egg-validate": "^2.0.2",
     "egg-view-ejs": "^2.0.0",
-    "sequelize-cli": "^5.5.0"
+    "sequelize-cli": "^5.5.0",
+    "utility": "^1.16.1",
+    "uuid": "^3.3.3"
   },
   "devDependencies": {
     "autod": "^2.9.0",

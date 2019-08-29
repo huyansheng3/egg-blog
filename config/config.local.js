@@ -7,5 +7,9 @@ module.exports = appInfo => {
         cache: false
     };
 
+    exports.security = {
+        csrf: false
+    };
+
     return config;
 };

@@ -1,0 +1,51 @@
+<form action="/api/v1/users/new" method="post">
+    <div class="field">
+        <label class="label">用户名</label>
+        <p class="control has-icons-left has-icons-right">
+            <input class="input" name="name" type="email" placeholder="Email">
+            <span class="icon is-small is-left">
+                <i class="fas fa-envelope"></i>
+            </span>
+            <span class="icon is-small is-right">
+                <i class="fas fa-check"></i>
+            </span>
+        </p>
+    </div>
+    <div class="field">
+        <label class="label">密码</label>
+        <p class="control has-icons-left">
+            <input class="input" name="password" type="password" placeholder="Password">
+            <span class="icon is-small is-left">
+                <i class="fas fa-lock"></i>
+            </span>
+        </p>
+    </div>
+
+    <div class="field">
+        <label class="label">确认密码</label>
+        <p class="control has-icons-left">
+            <input class="input" name="re-password" type="password" placeholder="ConfirmPassword">
+            <span class="icon is-small is-left">
+                <i class="fas fa-lock"></i>
+            </span>
+        </p>
+    </div>
+
+    <div class="field">
+        <label class="label">年龄</label>
+        <p class="control has-icons-left">
+            <input class="input" name="age" type="number" placeholder="age">
+            <span class="icon is-small is-left">
+                <i class="fas fa-lock"></i>
+            </span>
+        </p>
+    </div>
+
+    <div class="field">
+        <p class="control">
+            <button type="submit" class="button is-success">
+                Login
+            </button>
+        </p>
+    </div>
+</form>
