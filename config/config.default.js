@@ -19,6 +19,15 @@ module.exports = appInfo => {
     password: '321504',
   };
 
+  config.view = {
+    mapping: {
+      '.ejs': 'ejs',
+    },
+  }
+
+  config.ejs = {
+    layout: 'layout.ejs',
+  };
 
   return config;
 };
