@@ -20,7 +20,7 @@
     "autod-egg": "^1.0.0",
     "egg-bin": "^4.3.2",
     "egg-mock": "^3.12.1",
-    "eslint": "^3.9.1",
+    "eslint": "^6.6.0",
     "eslint-config-egg": "^5.1.1",
     "factory-girl": "^5.0.4",
     "sequelize-cli": "^5.5.0"
