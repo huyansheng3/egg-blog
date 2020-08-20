@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "just for learn egg ",
   "dependencies": {
-    "bcrypt": "^3.0.5",
+    "bcrypt": "^5.0.0",
     "bcryptjs": "^2.4.3",
     "bulma": "^0.7.5",
     "egg": "^1.8.0",
